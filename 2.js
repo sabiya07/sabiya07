@@ -177,12 +177,55 @@
 
 //binary - 0bnnnn (2)
 //decimal = nnnnn (10)
-//octa; =0onnnn (8)
+//octa; =0onnngit initn (8)
 //hexadecimal - 0xnnnn (16)
 
 //tostring
 //var a= 0b1000
-//console.log(a,tostring(10))//to convert to decimal
+//console.log(a,toString(10))//to convert to decimal
 //console.log(a,tostring(2))//to convert to binary
 //console.log(a,tostring(8))//to convert to octal
 //console.log(a,tostring(16))//to convert to hexadecimal
+
+
+//unary operator
+//+,-
+//console.log(='1')
+//console.log(='1')
+//console.log(-'1')
+//console.log(+'t')
+//console.log(-'t')
+//console.log(typr of NAN)
+//+string=number
+//+ string number = NaN
+//console.log(type of NaN)
+// var a=1 ,b='1',c=true,d='true' //+boolean =1
+//console.log(a,type of a)
+//console.log(b,type of b)
+//console.log(c,type of c)
+//console.log(d,type of d)
+
+//console.log(+a,type of a)
+//console.log(+b,type of b)
+//console.log(+c,type of c)
+//console.log(+d,type of d)
+
+//console.log(-a,type of a)
+//console.log(-b,type of b)
+//console.log(-c,type of c)
+//console.log(-d,type of d)
+
+
+//console.log(1+1+1+1)
+//console.log('1'+1+1+1)
+//console.log(1+'1'+1+1)
+//console.log(1+1+'1'+1)
+//console.log(1+1+1+'1') //after string no concatenation
+
+//console.log(false+false)
+//console.log(false+true)
+//console.log(false+0)
+//console.log(true + 0)
+//console.log(1+ true)
+
+//console.log('100' + null)
